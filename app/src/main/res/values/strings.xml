@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">COVIDTracker</string>
+    <string name="textViewTitleText">As of 2020-04-05, there are 1162857 Total Confirmed cases with 63263 Total Deaths and 230845 Total Recovered cases Globally</string>
+    <string name="editTextInputCountriesTextHint">Input each countries one by one</string>
+    <string name="textViewCountriesListText">Please input name of a country to add to the search list</string>
+    <string name="buttonSearchText">Search</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
