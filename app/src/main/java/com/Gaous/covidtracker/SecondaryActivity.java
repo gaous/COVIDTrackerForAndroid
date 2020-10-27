@@ -2,6 +2,7 @@ package com.Gaous.covidtracker;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -32,6 +33,7 @@ public class SecondaryActivity extends AppCompatActivity{
 //        listView.setRotation(-90);
 
         textViewDetailsArea = findViewById(R.id.textViewDetailsArea);
+        textViewDetailsArea.setMovementMethod(new ScrollingMovementMethod());
         list.addAll(array);
         Intent i = getIntent();
         arraysOfModel.addAll((List<Model>) i.getSerializableExtra("List"));
